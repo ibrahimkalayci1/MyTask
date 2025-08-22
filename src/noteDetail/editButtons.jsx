@@ -37,7 +37,7 @@ const EditButtons = ({onChangeStyle}) => {
     ]
   return <View style={styles.container} >
     {Buttons.map(item => (
-        <TouchableOpacity onPress={()  => onChangeStyle(item.value) } key={item.id} >
+        <TouchableOpacity  onPress={()  => onChangeStyle(item.value) } key={item.id} >
             
             {item.icon}
         </TouchableOpacity>
